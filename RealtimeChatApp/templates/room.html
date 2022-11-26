@@ -75,7 +75,7 @@ setInterval(function(){
         type: 'GET',
         url : "/getMessages/{{room}}/",
         success: function(response){
-            console.log(response);
+            //console.log(response);
             $("#display").empty();
             for (var key in response.messages)
             {
@@ -139,7 +139,7 @@ setInterval(function(){
 </body>
 
 <script type="text/javascript">
-  """ Send butonuna basıldığında farklı bir page'e gitmesini engeller"""
+  // Send butonuna basıldığında farklı bir page'e gitmesini engeller
   $(document).on('submit','#post-form',function(e){
     e.preventDefault();
 
@@ -153,7 +153,7 @@ setInterval(function(){
         csrfmiddlewaretoken:$('input[name=csrfmiddlewaretoken]').val(),
       },
       success: function(data){
-        alert(data)
+        //alert(data)
       }
     });
     document.getElementById('message').value = ''
