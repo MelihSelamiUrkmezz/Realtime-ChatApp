@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: melih-chatapp
+  namespace: chatapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: melih-chatapp
+  template:
+    metadata:
+      labels:
+        app: melih-chatapp
+    spec:
+      containers:
+      - name: chatapp-activecont
+        image: melihselamiurkmez/chatapp
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "250m"
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: chatapp-publish
+spec:
+  type: LoadBalancer
+  selector:
+    app: melih-chatapp
+  ports:
+  - name: my-first-port
+    protocol: TCP
+    port: 8080
+    targetPort: 80
