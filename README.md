@@ -21,8 +21,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 The project was implemented with python's 'Django' framework. 'SQLite' embedded in django is used as database. The 'Dockerfile' of the project has been written so that the project can be tested more easily by other users. In the project, instead of server client architecture, ajax was used to display the messages in real time.
 
 
