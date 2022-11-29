@@ -74,11 +74,10 @@ If there is no docker desktop application, you can use the following commands.
    ```
 
 If you have docker desktop installed, you can run the project with a single command like this!
-
-docker container run -p 8000:8000 melihselamiurkmez/chatapp:v5
-
-
-
+ ```sh
+   docker container run -p 8000:8000 melihselamiurkmez/chatapp:v5
+   ```
+When the above is done, the project will run at 127.0.0.1:8000.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
