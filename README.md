@@ -84,17 +84,22 @@ When the above is done, the project will run at 127.0.0.1:8000.
 
 As you can see, you can open a room!
 
-  <img src="https://github.com/MelihSelamiUrkmezz/Realtime-ChatApp/blob/main/Project%20Images/Screenshot_1.png" alt="Logo" width="80" height="80">
+  <img src="https://github.com/MelihSelamiUrkmezz/Realtime-ChatApp/blob/main/Project%20Images/Screenshot_1.png" alt="Logo" width="900" height="500">
 
 
 You can easily communicate with your friend in the room by telling your friend the name of the opened room!
 
-  <img src="https://github.com/MelihSelamiUrkmezz/Realtime-ChatApp/blob/main/Project%20Images/Screenshot_2.png" alt="Logo" width="80" height="80">
+  <img src="https://github.com/MelihSelamiUrkmezz/Realtime-ChatApp/blob/main/Project%20Images/Screenshot_2.png" alt="Logo" width="900" height="500">
 
 
 You can also connect to the room as a 3rd person and read old conversations!
 
-   <img src="https://github.com/MelihSelamiUrkmezz/Realtime-ChatApp/blob/main/Project%20Images/Screenshot_3.png" alt="Logo" width="80" height="80">
+   <img src="https://github.com/MelihSelamiUrkmezz/Realtime-ChatApp/blob/main/Project%20Images/Screenshot_3.png" alt="Logo" width="900" height="500">
+
+## Kubernetes Integration
+
+
+If you want to manage with kubernetes, a yaml file with LoadBalancer service has been created. you can use that template!
 
 
 <!-- CONTRIBUTING -->
