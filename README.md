@@ -25,7 +25,7 @@
 
 The project was implemented with python's 'Django' framework. 'SQLite' embedded in django is used as database. The 'Dockerfile' of the project has been written so that the project can be tested more easily by other users. In the project, instead of server client architecture, ajax was used to display the messages in real time.
 
-<p align="right"></p>
+
 
 
 
@@ -79,7 +79,6 @@ If you have docker desktop installed, you can run the project with a single comm
 
 docker container run -p 8000:8000 melihselamiurkmez/chatapp:v5
 
-<p align="right">(<a href="#readme-top"></a>)</p>
 
 
 
@@ -88,7 +87,7 @@ docker container run -p 8000:8000 melihselamiurkmez/chatapp:v5
 
 
 
-<p align="right">(<a href="#readme-top"></a>)</p>
+
 
 
 
@@ -108,7 +107,7 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/NewFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#readme-top"></a>)</p>
+
 
 
 
@@ -121,7 +120,6 @@ Melih Selami URKMEZ - melih.s.urkmez@gmail.com
 
 Project Link: [https://github.com/MelihSelamiUrkmezz/Realtime-ChatApp](https://github.com/MelihSelamiUrkmezz/Realtime-ChatApp)
 
-<p align="right">(<a href="#readme-top"></a>)</p>
 
 
 
