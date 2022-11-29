@@ -40,7 +40,7 @@ The project was implemented with python's 'Django' framework. 'SQLite' embedded 
 * Ajax
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
