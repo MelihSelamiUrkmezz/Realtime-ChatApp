@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: chatapp-activecont
-        image: melihselamiurkmez/chatapp
+        image: melihselamiurkmez/chatapp:v6
         resources:
           requests:
             memory: "64Mi"
