@@ -82,12 +82,19 @@ When the above is done, the project will run at 127.0.0.1:8000.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+As you can see, you can open a room!
+
+  <img src="https://t3.ftcdn.net/jpg/03/13/32/16/360_F_313321649_Sz7LZHKenwRtu3rFDbuyO28oJ7udepXw.jpg" alt="Logo" width="80" height="80">
 
 
+You can easily communicate with your friend in the room by telling your friend the name of the opened room!
+
+  <img src="https://t3.ftcdn.net/jpg/03/13/32/16/360_F_313321649_Sz7LZHKenwRtu3rFDbuyO28oJ7udepXw.jpg" alt="Logo" width="80" height="80">
 
 
+You can also connect to the room as a 3rd person and read old conversations!
 
-
+   <img src="https://t3.ftcdn.net/jpg/03/13/32/16/360_F_313321649_Sz7LZHKenwRtu3rFDbuyO28oJ7udepXw.jpg" alt="Logo" width="80" height="80">
 
 
 <!-- CONTRIBUTING -->
